@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\Actions",
+    "\\src\\API",
+    "\\src\\Components",
+    "\\src\\Middleware",
+    "\\src\\pages",
+    "\\src\\Reducers",
+    "\\src\\Stores"
+  ],
+  "SelectedNode": "\\src\\API\\Rest.js",
+  "PreviewInSolutionExplorer": false
+}
