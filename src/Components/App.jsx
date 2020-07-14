@@ -5,6 +5,7 @@ import { addTodo } from '../Actions/Action'
 import AddTodo from './AddTodo.js'
 import TodoList from './TodoList.js'
 
+//https://codesandbox.io/s/9on71rvnyo?file=/src/components/TodoList.js
 export class ToDoApp extends Component {
     render() {
         const { dispatch, visibleTodos } = this.props
@@ -29,5 +30,5 @@ function select(state) {
     }
 }
 
-// connect redux to our component
+// connects a React component to a Redux store
 export default connect(select)(ToDoApp);
